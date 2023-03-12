@@ -4,22 +4,26 @@
   box-sizing: border-box;
 }
 
-html {
+body {
   background: #f2f2f2;
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.9375rem;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/*========================================*/
+/*CONTAINER STYLING*/
+/*========================================*/
 
 .main-container {
   display: flex;
+  max-width: 60rem;
+  margin: 1.5rem;
 }
 
 .box {
-  max-width: 20rem;
   padding: 3rem;
 }
 
@@ -55,10 +59,14 @@ h2 {
 }
 
 p {
-  color: #fff;
+  color: rgb(255, 255, 255, 0.75);
   line-height: 25px;
   margin-bottom: 5.2rem;
 }
+
+/*========================================*/
+/*BUTTONS STYLING*/
+/*========================================*/
 
 .btn {
   border: none;
@@ -94,4 +102,29 @@ p {
 
 .btn-3:hover {
   background: #004140;
+}
+
+/*========================================*/
+/*MEDIA QUERY FOR MOBILE */
+/*========================================*/
+
+@media screen and (max-width: 420px) {
+  .main-container {
+    flex-direction: column;
+    max-width: 20rem;
+  }
+
+  .box1 {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+  }
+
+  .box3 {
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 0;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
 }
