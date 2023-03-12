@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+}
+
+.box {
+  max-width: 20rem;
+  padding: 3rem;
+}
+
+.box1 {
+  background: #e28625;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.box2 {
+  background: #006971;
+}
+
+.box3 {
+  background: #004140;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+img {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  color: #fff;
+  line-height: 25px;
+  margin-bottom: 5.2rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  outline: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-1 {
+  color: #e28625;
+}
+
+.btn-1:hover {
+  background: #e28625;
+}
+
+.btn-2 {
+  color: #006971;
+}
+
+.btn-2:hover {
+  background: #006971;
+}
+
+.btn-3 {
+  color: #004140;
+}
+
+.btn-3:hover {
+  background: #004140;
+}
